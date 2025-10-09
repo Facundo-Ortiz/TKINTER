@@ -1,0 +1,14 @@
+Para enviar:
+	git config --global user.name "..."
+	git config --global user.email "..."
+
+Hacia donde va:
+	git remote -v 
+	git remote remove origin
+	git remote add origin (URL)
+
+Que vamos a enviar:
+	touch archivo
+	git add archivo
+	git commit -m "subi el archivo"
+	git push
