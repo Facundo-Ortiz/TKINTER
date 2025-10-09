@@ -1,0 +1,18 @@
+git config –global user.name “username“
+git config –global user.email  “email” 
+
+
+(ESTO SE SALTEA EL INIT Y EL REMOTE SIEMPRE Y CUANDO TENGA EL REPO CON ALGO)
+git clone https://MaximilianooQuiroga@github.com/MaximilianooQuiroga/repo-actividad-chmod.git
+
+(SI ESTA VACIO, HACER LA CONEXION CON EL REPO MANUALMENTE)
+git init
+git remote remove origin
+git remote add origin https://MaximilianooQuiroga@github.com/MaximilianooQuiroga/repo-actividad-chmod.git
+git remote -v
+
+(SUBIR ARCHIVOS AL REPO)
+git add nombre_de_archivo 
+git commit -m “mensaje” 
+git branch -M main
+git push -u origin main 
